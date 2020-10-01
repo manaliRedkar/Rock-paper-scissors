@@ -1,0 +1,20 @@
+#textrow{
+	color: white;
+	background-color: purple;
+
+}
+
+#choices{
+	color: purple;
+}
+
+
+#text, #comp1{
+	color: purple;
+}
+
+#text-button{
+	color: purple ;
+	cursor: pointer;
+	font-weight: bold;
+}

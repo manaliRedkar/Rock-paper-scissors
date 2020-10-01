@@ -1,0 +1,75 @@
+<html>
+	<head >
+		<title>This is assignment 2 </title>
+		<link rel="stylesheet" href="game.css">
+		<script type="text/javascript"  src="game.js"></script>
+		<style>
+			table, th, td {
+			  border: 3px solid black;
+			}
+		</style>
+	</head>
+
+
+	<body >
+		<br>
+		<br>
+		<table style="width:100%">
+			<tr id="textrow">
+				<th>Your selection: </th>
+    			<th> </th>
+    			<th>Computer</th>
+			</tr>
+
+			<tr>
+				<th>
+					<div id = "choices">
+					  <input type="radio" id="paper" name="game" value="Paper">
+					  <label for="paper"> Paper </label><br>
+					  <input type="radio" id="scissor" name="game" value="Scissor">
+					  <label for="scissor"> Scissor </label><br>
+					  <input type="radio" id="rock" name="game" value="Rock">
+					  <label for="rock">Rock </label>
+					</div>
+				</th>
+
+    			<th> <button  onclick="play()" id = "text-button"> GO </button> </th>
+
+    			<th id = "comp1"> </th>
+			</tr>
+
+			<tr id="text">
+				<th> You selected: </th>
+				<th id = "player">  </th>
+			</tr>
+			<tr id="text">
+				<th> Computer randomly generated: </th>
+				<th id = "comp2"> </th>
+    		</tr>
+		</table>
+
+
+		<div>
+			History: You have played total: 
+				<span id = "hist"> </span>
+				time(s)!
+ 
+ 			<br>
+		
+	 		Paper: 
+				<span id = "pap"> </span>
+				time(s) &
+	 	
+
+	 		Scissors: 
+				<span id = "sci"> </span>
+				time(s) &
+	 		
+
+	 		Rock: 
+				<span id = "roc"> </span>
+				time(s).
+ 		</div>		
+
+	</body>
+</html>
